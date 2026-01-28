@@ -1,6 +1,6 @@
 import { HeroSection1 } from "@/components/global/HeroSection";
-import Navbar from "@/components/Navbar";
-import { CompanyLogo } from "@/components/smoothui/logo-cloud-1/CompanyLogo";
+import Navbar from "@/components/global/Navbar";
+import { CompanyLogo } from "@/components/global/CompanyLogo";
 
 export default function Home() {
   return (

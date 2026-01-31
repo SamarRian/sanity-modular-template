@@ -3,6 +3,7 @@ import Navbar from "@/components/global/Navbar";
 import { CompanyLogo } from "@/components/global/CompanyLogo";
 import Testimonials from "@/components/global/Testimonial";
 import TeamSection from "@/components/global/TeamSection";
+import StatsSection from "@/components/global/StatsSection";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <CompanyLogo />
         <Testimonials />
         <TeamSection />
+        <StatsSection />
       </main>
     </div>
   );

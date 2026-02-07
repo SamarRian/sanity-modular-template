@@ -215,7 +215,7 @@ function HeroSection1() {
           preset="fade-in-blur"
           speedSegment={0.3}
           as="h1"
-          className="text-foreground text-3xl md:text-5xl xl:text-7xl text-center"
+          className="text-foreground text-3xl md:text-5xl xl:text-7xl text-center font-bold "
         >
           Automate more,
         </TextEffect>
@@ -223,7 +223,7 @@ function HeroSection1() {
           preset="fade-in-blur"
           speedSegment={0.3}
           as="h1"
-          className="text-foreground text-3xl md:text-5xl xl:text-7xl text-center mb-1 md:mb-5"
+          className="font-bold text-foreground text-3xl md:text-5xl xl:text-7xl text-center mb-1 md:mb-5"
         >
           Worry less.
         </TextEffect>

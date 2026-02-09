@@ -7,6 +7,7 @@ import PricingSection from "@/components/global/PricingSection";
 import FaqSection from "@/components/global/FaqSection";
 import FooterSection from "@/components/global/FooterSection";
 import HeroSection1 from "@/components/global/HeroSection";
+import ProductSection from "@/components/global/ProductSection";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <CompanyLogo />
         <Testimonials />
         <TeamSection />
+        <ProductSection />
         <StatsSection />
         <PricingSection />
         <FaqSection />

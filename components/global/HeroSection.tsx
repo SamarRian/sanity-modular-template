@@ -169,8 +169,8 @@ function HeroSection1() {
 
   return (
     <div
+      className="h-[170vh] sm:h-[200vh]"
       style={{
-        height: "800px",
         position: "relative",
         overflow: "hidden",
       }}
@@ -210,7 +210,7 @@ function HeroSection1() {
         decay={1.1}
         falloffStart={1.2}
       />
-      <div className="absolute top-12 ">
+      <div className="absolute top-1/6 ">
         <TextEffect
           preset="fade-in-blur"
           speedSegment={0.3}
@@ -270,7 +270,7 @@ function HeroSection1() {
             asChild
             size="lg"
             variant="outline"
-            className="rounded-md px-5 text-white mt-2 sm:mt-5 md:mt-10 lg:mt-10 "
+            className="rounded-md px-5 text-foreground mt-2 sm:mt-5 md:mt-10 lg:mt-10 "
           >
             <Link href="#link">
               <span className="text-nowrap">Download for Windows</span>
@@ -278,7 +278,7 @@ function HeroSection1() {
           </Button>
         </AnimatedGroup>
       </div>
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 w-[95%] h-[60%] bg-black rounded-[20px] border-2 border-border text-white text-[2rem] z-6 px-6 pt-10 overflow-hidden">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 w-[70%] h-[60%] bg-black rounded-[20px] border-2 border-border text-white text-[2rem] z-6 px-6 pt-10 overflow-hidden">
         {/* Your content here */}
 
         <Image
